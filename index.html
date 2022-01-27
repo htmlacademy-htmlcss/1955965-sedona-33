@@ -9,33 +9,33 @@
 <body>
   <header class="page-header">
     <nav class="navigation">
-      <a class="navigation-logo" href="index.html">
-        <img class="page-header-logo"  src="" alt="Логотип Седона.">
+      <a class="navigation-logo">
+        <img class="page-header-logo" src="" alt="Логотип Седона.">
       </a>
       <ul class="navigation-list">
         <li class="navigation-item">
-          <a class="navigation-link" href="index.html">Главная</a>
+          <a class="navigation-link navigation-link-current">Главная</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link " href="about.html">О Седоне</a>
+          <a class="navigation-link " href="#">О Седоне</a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link navigation-link-current" href="catalog.html">Гостиницы</a>
+          <a class="navigation-link" href="catalog.html">Гостиницы</a>
         </li>
       </ul>
       <ul class="navigation-list navigation-user">
         <li class="navigation-item">
-          <a class="navigation-link" href="">
+          <a class="navigation-link" href="#">
             <span class="visually-hidden">Поиск</span>
           </a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="">
+          <a class="navigation-link" href="#">
             <span class="visually-hidden">избранное</span>
           </a>
         </li>
         <li class="navigation-item">
-          <a class="navigation-link" href="">Хочу сюда!</a>
+          <a class="navigation-link" href="#">Хочу сюда!</a>
         </li>
       </ul>
     </nav>
@@ -80,8 +80,6 @@
             <p class="advantage-description">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
           </div>
         </li>
-      </ul>
-      <ul class="advantage-list">
         <li class="advantage-item">
           <h3 class="advantages-title">Небольшая площадь</h3>
           <span class="advantage-number">- №3 -</span>
@@ -101,7 +99,7 @@
     </section>
     <section class="search-hotel">
       <h2 class="visually-hidden">Поиск гостиниц в Седоне</h2>
-      <p class="search-question">Заинтересовались?</p>
+      <strong class="search-question">Заинтересовались?</strong>
       <p class="search-date">Укажите продполагаемые даты поездки,
         <br>и мы покажем вам лучшие предложения гостиниц в Седоне
       </p>
@@ -116,8 +114,7 @@
         <label for="newsletter-email">Email</label>
         <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email"
           required>
-        <button class="button newsletter-button" type="submit">
-          <span class="visually-hidden">Подписаться</span>
+        <button class="button newsletter-button" type="submit"> Подписаться
         </button>
       </form>
     </section>
@@ -148,4 +145,5 @@
     </section>
   </footer>
 </body>
+
 </html>
